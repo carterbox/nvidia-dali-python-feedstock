@@ -26,7 +26,7 @@ build:
   skip:
     - cuda_compiler_version == "None"
     - win
-    # - match(python, "!=3.12.*")
+    - match(python, "!=3.12.*")
 requirements:
   ignore_run_exports:
     by_name:
