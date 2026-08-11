@@ -9,7 +9,7 @@ c_stdlib:
 c_stdlib_version:
 - '2.17'
 cfitsio:
-- 4.6.4
+- 4.6.3
 channel_sources:
 - conda-forge
 channel_targets:
@@ -23,13 +23,13 @@ cxx_compiler:
 cxx_compiler_version:
 - '14'
 docker_image:
-- quay.io/condaforge/linux-anvil-x86_64:alma9
+- quay.io/condaforge/linux-anvil-x86_64:alma10
 ffmpeg:
 - '8'
 gast:
 - '>=0.3.3,<=0.7.0'
 libabseil:
-- '20260526'
+- '20260107'
 libboost_headers:
 - '1.90'
 libcst:
@@ -43,11 +43,11 @@ libnvimgcodec:
 libopencv:
 - 4.13.0
 libprotobuf:
-- 7.35.1
+- 6.33.5
 libsndfile:
 - '1.2'
 lmdb:
-- 0.9.29
+- '0.9'
 numpy:
 - '2'
 packaging:
