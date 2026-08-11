@@ -240,11 +240,11 @@ outputs:
         - file
         - ninja
         - pkgconf
+        - python-clang
         - if: build_platform != target_platform
           then:
             - cross-python_${{ target_platform }}
             - python
-            - python-clang
             - libprotobuf
             - libprotobuf-static
       host:
@@ -272,7 +272,6 @@ outputs:
         - pip
         - pybind11
         - python
-        - python-clang
         - setuptools
         # Runtime deps also needed at host time for stub generator
         - nvtx

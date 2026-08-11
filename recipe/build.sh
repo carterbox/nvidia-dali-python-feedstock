@@ -102,6 +102,8 @@ else
   export CUDAARCHS=""
 fi
 
+export LIBCLANG_LIBRARY_PATH=$BUILD_PREFIX/lib
+
 # https://docs.nvidia.com/deeplearning/dali/user-guide/docs/compilation.html#optional-cmake-build-parameters
 cmake ${CMAKE_ARGS} \
   -GNinja \
