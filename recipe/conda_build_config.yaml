@@ -24,3 +24,5 @@ numpy:
   - "2"
 ignore_version:
   - numpy
+libopencv:
+  - "4.13.*"
