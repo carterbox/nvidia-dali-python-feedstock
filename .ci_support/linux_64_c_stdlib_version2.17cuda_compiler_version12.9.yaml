@@ -41,7 +41,7 @@ libnvcomp:
 libnvimgcodec:
 - 0.8.*
 libopencv:
-- 4.13.0
+- 4.13.*
 libprotobuf:
 - 7.35.1
 libsndfile:
